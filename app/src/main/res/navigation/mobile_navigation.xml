@@ -22,4 +22,11 @@
         android:name="com.cyyaw.citychat.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.cyyaw.citychat.ui.my.MyFragment"
+        android:label="@string/title_my"
+        tools:layout="@layout/fragment_my" />
+
 </navigation>
